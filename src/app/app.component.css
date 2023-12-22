@@ -1,0 +1,37 @@
+header {
+  /*position: fixed;*/
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #e73131;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: whitesmoke;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  right: 50px;
+}
+
+nav > a {
+  margin-left: 20px;
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #10818c;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color : white;
+  font-weight: bold;
+}
