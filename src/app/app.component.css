@@ -9,20 +9,18 @@ header {
   padding-left: 20px;
   color: whitesmoke;
 }
-
-nav {
-  display: flex;
+.task-btn{
   position: fixed;
-  right: 50px;
+  top: 13px;
 }
 
-nav > a {
-  margin-left: 20px;
-  color: whitesmoke;
-  font-weight: bold;
-  text-decoration: none;
+.task-btn:first-child {
+  right: 20%;
 }
 
+.task-btn:last-child {
+  right: 10%;
+}
 footer {
   position: fixed;
   bottom: 0;

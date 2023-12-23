@@ -8,11 +8,31 @@
       "archived": false
     },
     {
+      "id": 2,
+      "title": "Hello World",
+      "deadline": "1900-01-01",
+      "completed": true,
+      "archived": true
+    },
+    {
+      "id": 3,
+      "title": "Hello World",
+      "deadline": "1900-01-01",
+      "completed": true,
+      "archived": false
+    },
+    {
       "title": "Pierwsze zadanie",
       "deadline": "2022-01-28",
-      "completed": false,
-      "archived": false,
+      "completed": true,
+      "archived": true,
       "id": 4
+    },
+    {
+      "title": "test",
+      "completed": true,
+      "archived": true,
+      "id": 5
     }
   ]
 }

@@ -9,17 +9,6 @@
   padding: 10px;
 }
 
-@media screen and (min-width: 768px) {
-  .tasks .task {
-    grid-template-columns: 3fr 1fr auto;
-    grid-template-areas: 'title deadline actions';
-  }
-}
-
-.tasks .task .title {
-  grid-area: title;
-}
-
 .tasks .task .deadline {
   grid-area: deadline;
 }
@@ -31,12 +20,8 @@
   font-size: 0.8em;
 }
 
-.tasks .task .actions {
-  grid-area: actions;
-  text-align: right;
-}
-
 .new-task {
   display: flex;
+  justify-content: space-evenly;
 }
 
